@@ -1,4 +1,4 @@
-"""Allow ``python -m diskscope.gui``."""
+"""Allow ``python -m diskscope.gui``.""" 
 
 from .app import main
 
