@@ -1,0 +1,22 @@
+{
+  "json_format_version": [1, 0],
+  "smartctl": {
+    "version": [7, 4],
+    "exit_status": 2,
+    "messages": [
+      {
+        "string": "Smartctl open device: /dev/sdb failed: Permission denied",
+        "severity": "error"
+      }
+    ]
+  },
+  "device": {
+    "name": "/dev/sdb",
+    "info_name": "/dev/sdb",
+    "type": "scsi",
+    "protocol": "SCSI"
+  },
+  "model_name": "Example USB",
+  "serial_number": null,
+  "firmware_version": null
+}

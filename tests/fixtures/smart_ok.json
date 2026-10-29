@@ -1,0 +1,50 @@
+{
+  "json_format_version": [1, 0],
+  "smartctl": {
+    "version": [7, 4],
+    "exit_status": 0,
+    "messages": []
+  },
+  "device": {
+    "name": "/dev/sda",
+    "info_name": "/dev/sda",
+    "type": "ata",
+    "protocol": "ATA"
+  },
+  "model_name": "Example SSD",
+  "serial_number": "TEST-SMART-1",
+  "firmware_version": "1.2.3",
+  "smart_support": {
+    "available": true,
+    "enabled": true
+  },
+  "smart_status": {
+    "passed": true
+  },
+  "temperature": {
+    "current": 35
+  },
+  "power_on_time": {
+    "hours": 1234
+  },
+  "ata_smart_attributes": {
+    "table": [
+      {
+        "id": 5,
+        "name": "Reallocated_Sector_Ct",
+        "value": 100,
+        "worst": 100,
+        "thresh": 10,
+        "raw": {"value": 0, "string": "0"}
+      },
+      {
+        "id": 194,
+        "name": "Temperature_Celsius",
+        "value": 65,
+        "worst": 40,
+        "thresh": 0,
+        "raw": {"value": 35, "string": "35"}
+      }
+    ]
+  }
+}

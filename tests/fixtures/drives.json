@@ -1,0 +1,26 @@
+[
+  {
+    "DeviceId": "0",
+    "FriendlyName": "Example NVMe",
+    "MediaType": "SSD",
+    "BusType": "NVMe",
+    "Size": 512110190592,
+    "HealthStatus": "Healthy",
+    "OperationalStatus": "OK",
+    "SerialNumber": "TEST-0001",
+    "Model": "Example NVMe",
+    "FirmwareVersion": "1.0"
+  },
+  {
+    "DeviceId": "1",
+    "FriendlyName": "Example HDD",
+    "MediaType": "HDD",
+    "BusType": "SATA",
+    "Size": "1000204886016",
+    "HealthStatus": "Warning",
+    "OperationalStatus": ["OK", "Pred Fail"],
+    "SerialNumber": null,
+    "Model": null,
+    "FirmwareVersion": null
+  }
+]

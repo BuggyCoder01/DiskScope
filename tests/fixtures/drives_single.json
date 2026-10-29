@@ -1,0 +1,12 @@
+{
+  "DeviceId": "2",
+  "FriendlyName": "Single Disk",
+  "MediaType": "Unspecified",
+  "BusType": "USB",
+  "Size": null,
+  "HealthStatus": null,
+  "OperationalStatus": null,
+  "SerialNumber": null,
+  "Model": null,
+  "FirmwareVersion": null
+}

@@ -1,0 +1,12 @@
+{
+  "dirs": ["docs", "docs/nested", "media", "empty"],
+  "files": {
+    "alpha.bin": 100,
+    "archive.zip": 400,
+    "docs/report.pdf": 300,
+    "docs/note.txt": 50,
+    "docs/nested/data.json": 75,
+    "media/movie.mp4": 1000,
+    "media/photo.JPG": 200
+  }
+}
